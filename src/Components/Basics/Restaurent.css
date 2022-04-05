@@ -1,0 +1,47 @@
+.container {
+  padding: 30px;
+  border: 1px solid black;
+  height: 530px;
+  width: 400px;
+  background: rgba(241, 245, 245, 0.885);
+  margin-right: 20px;
+}
+.btn {
+  margin-left: 70%;
+  cursor: pointer;
+}
+.number {
+  padding: 10px;
+  background: lightgray;
+  color: black;
+  border-radius: 100%;
+}
+.main-div {
+  display: flex;
+}
+.img-item {
+  height: 120px;
+  width: auto;
+}
+.img-div {
+  text-align: center;
+}
+.item {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 7px 15px;
+  background: white;
+  color: black;
+  font-size: 20px;
+  border-radius: 20px;
+}
+.navBar {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.item:hover {
+  color: white;
+  background: #000;
+  transition: 0.5s;
+}
